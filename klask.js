@@ -1,5 +1,5 @@
 (function(){
-  window.addEventListener("load",this.init.bind(this));
+  window.addEventListener("load",init);
   
   var model={}; // the game model
   var view={}; // the dom.

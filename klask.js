@@ -8,7 +8,8 @@
   {
     for(var all in init)
     {
-      el.setAttributeNS("http://www.w3.org/2000/svg",all, init[all]);
+//      el.setAttributeNS("http://www.w3.org/2000/svg",all, init[all]);
+      el.setAttribute(all, init[all]);
     }
   }
   function create(tag, init)
